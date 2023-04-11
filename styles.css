@@ -8,16 +8,30 @@
 }
 
 body {
-  margin: 8% 15%;
   background-color: #1a1a1a;
-  /* height: 100vh; */
-  justify-content: space-between;
+  height: 100%;
 }
 
+.header {
+  padding: 2% 0% 0% 10%;
+  position: relative;
+  background-color: #22d4fd;
+}
 
+.navigation {
+  gap: 80px;
+  text-align: end;
+  justify-self: center;
+  padding: 2%;
+  max-height: 70px;
+}
 
-.List-Header{
+.List-Header {
   text-decoration: none;
+  color: #f6f6f6;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 15px;
 }
 
 .container {
@@ -30,6 +44,8 @@ body {
 .Apresentation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 8% 15%;
 }
 
 .First-Text {
@@ -49,10 +65,10 @@ strong {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  transition: .35s;
+  transition: 0.35s;
 }
 
-.Text-Social-Medias{
+.Text-Social-Medias {
   color: #f6f6f6;
   font-size: 24px;
 }
@@ -68,20 +84,18 @@ strong {
   margin: 5px;
   border: 2px solid #22d4fd;
   background-color: #1a1a1a;
-  transition: .35s;
+  transition: 0.35s;
   cursor: pointer;
 }
 
-.button-direction:hover > :not(:hover){
+.button-direction:hover > :not(:hover) {
   transform: scale(0.9);
-  opacity: .4;
-
+  opacity: 0.4;
 }
 
-Image-link{
+Image-link {
   padding-left: 250px;
 }
-
 
 .Image {
   width: 500px;
@@ -96,14 +110,16 @@ Image-link{
   text-decoration: none;
 }
 
-.footer{
-  width: 100;
+.footer {
+  width: 100%;
   padding: 24px;
   background-color: #22d4fd;
-  padding: 24px;
+  bottom: 0;
+  left: 0;
+  position: relative;
 }
 
-.Text-Footer{
+.Text-Footer {
   color: white;
   text-align: center;
   font-size: 24px;

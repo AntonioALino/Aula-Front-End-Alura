@@ -8,10 +8,30 @@
 }
 
 body {
-  margin: 10% 15%;
   background-color: #1a1a1a;
-  height: 50vh;
-  justify-content: space-between;
+  height: 100%;
+}
+
+.header {
+  padding: 2% 0% 0% 10%;
+  position: relative;
+  background-color: #22d4fd;
+}
+
+.navigation {
+  gap: 80px;
+  text-align: end;
+  justify-self: center;
+  padding: 2% 0% 0% 0%;
+  max-height: 70px;
+}
+
+.List-Header {
+  text-decoration: none;
+  color: #f6f6f6;
+  overflow: hidden;
+  font-size: 24px;
+  margin: 15px;
 }
 
 .container {
@@ -21,9 +41,11 @@ body {
   gap: 40px;
 }
 
-.Apresentacao {
+.Apresentation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 8% 15%;
 }
 
 .First-Text {
@@ -40,14 +62,39 @@ strong {
 
 .button-direction {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  
+}
+
+.Text-Social-Medias {
+  color: #f6f6f6;
+  font-size: 24px;
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
   width: 280px;
   height: 79px;
   border-radius: 8px;
   margin: 5px;
-  background-color: #22d4fd;
+  border: 2px solid #22d4fd;
+  background-color: #1a1a1a;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.hover_effect{
+  transition: 0.35s;
+}
+
+.hover_effect:hover > :not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.4;
 }
 
 .Image {
@@ -61,4 +108,20 @@ strong {
   color: white;
   font-size: 18px;
   text-decoration: none;
+  margin: 100px;
+}
+
+.footer {
+  width: 100%;
+  padding: 24px;
+  background-color: #22d4fd;
+  bottom: 0;
+  left: 0;
+  position: relative;
+}
+
+.Text-Footer {
+  color: white;
+  text-align: center;
+  font-size: 24px;
 }

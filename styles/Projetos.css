@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--secundary-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #1a1a1a;
+  --primary-color: #22d4fd;
+  --secundary-color: #f6f6f6;
+}
+
+.header {
+  padding: 0.5%;
+  position: relative;
+  background-color: var(--primary-color);
+}
+.navigation {
+  gap: 80px;
+  text-align: end;
+  justify-self: center;
+  padding: 2% 0% 0% 0%;
+  max-height: 70px;
+}
+
+.List-Header {
+  text-decoration: none;
+  overflow: hidden;
+  color: var(--secundary-color);
+  margin: 15px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Image {
+  width: 500px;
+  height: 500px;
+  align-self: center;
+}
+
+#typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 24px;
+  font-family: "Poppins";
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--primary-color);
+  }
+}
+.footer {
+  padding: 13px;
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  font-size: 13px;
+  max-height: 70px;
+}

@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;600;700&display=swap);
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -19,7 +21,6 @@ body {
   padding: 0.5%;
   position: relative;
   background-color: var(--primary-color);
-  
 }
 .navigation {
   gap: 80px;
@@ -34,10 +35,10 @@ body {
   overflow: hidden;
   color: var(--secundary-color);
   margin: 15px;
-  font-size: 24px;
+  font-size: 17px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -51,10 +52,9 @@ body {
 
 #typewriter {
   overflow: hidden;
-  border-right: 0.15em solid var(--primary-color);
   white-space: nowrap;
   font-size: 24px;
-  font-family: "Poppins";
+  font-family: "Fira Code";
   letter-spacing: 0.15em;
   animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -85,5 +85,6 @@ body {
   left: 0;
   bottom: 0;
   position: fixed;
-  font-size: 13px;
+  font-size: 17px;
+  max-height: 70px;
 }

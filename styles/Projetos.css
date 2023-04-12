@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;600;700&display=swap);
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -33,7 +35,7 @@ body {
   overflow: hidden;
   color: var(--secundary-color);
   margin: 15px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .container {
@@ -52,7 +54,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   font-size: 24px;
-  font-family: "Poppins";
+  font-family: "Fira Code";
   letter-spacing: 0.15em;
   animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -83,6 +85,6 @@ body {
   left: 0;
   bottom: 0;
   position: fixed;
-  font-size: 13px;
+  font-size: 17px;
   max-height: 70px;
 }

@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
-
 :root {
   --background-color: #1a1a1a;
   --primary-color: #22d4fd;
@@ -20,7 +19,6 @@
   background-color: var(--primary-color);
 }
 
-
 .navigation {
   gap: 80px;
   text-align: end;
@@ -34,7 +32,7 @@
   overflow: hidden;
   color: var(--secundary-color);
   margin: 15px;
-  font-size: 24px;
+  font-size: 17px;
 }
 
 body {
@@ -52,8 +50,6 @@ body {
 
 .container {
   width: 615px;
-  display: flex;
-  flex-direction: column;
   gap: 40px;
 }
 
@@ -63,6 +59,13 @@ body {
   height: 500px;
   margin: 0px 100px;
   
+  
+  position: relative;
+}
+
+.Paragraph{
+  float: left;
+  margin-top: 40px;
 }
 
 .footer {
@@ -73,5 +76,5 @@ body {
   left: 0;
   bottom: 0;
   position: relative;
-  font-size: 24px;
+  font-size: 17px;
 }

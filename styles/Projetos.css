@@ -24,7 +24,7 @@ body {
 }
 .navigation {
   gap: 80px;
-  text-align: end;
+  text-align: start;
   justify-self: center;
   padding: 2% 0% 0% 0%;
   max-height: 70px;

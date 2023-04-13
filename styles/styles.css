@@ -13,14 +13,14 @@ body {
 }
 
 .header {
-  padding: 2% 0% 0% 10%;
+  padding: 0.5%;
   position: relative;
   background-color: #22d4fd;
 }
 
 .navigation {
   gap: 80px;
-  text-align: end;
+  text-align: start;
   justify-self: center;
   padding: 2% 0% 0% 0%;
   max-height: 70px;

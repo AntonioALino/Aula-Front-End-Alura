@@ -21,7 +21,7 @@
 
 .navigation {
   gap: 80px;
-  text-align: end;
+  text-align: start;
   justify-self: center;
   padding: 2% 0% 0% 0%;
   max-height: 70px;
@@ -51,6 +51,10 @@ body {
 .container {
   width: 615px;
   gap: 40px;
+}
+
+strong{
+  color: var(--primary-color);
 }
 
 .Image {
